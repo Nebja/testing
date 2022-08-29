@@ -1,0 +1,27 @@
+{
+    "devDependencies": {
+        "@hotwired/stimulus": "^3.0.0",
+        "@kazupon/vue-i18n-loader": "^0.5.0",
+        "@symfony/stimulus-bridge": "^3.2.0",
+        "@symfony/webpack-encore": "^3.0.0",
+        "core-js": "^3.23.0",
+        "regenerator-runtime": "^0.13.9",
+        "vue": "^3.2.37",
+        "vue-cli-plugin-i18n": "^2.3.1",
+        "vue-loader": "^17.0.0",
+        "vue-template-compiler": "^2.7.10",
+        "webpack-notifier": "^1.15.0"
+    },
+    "license": "UNLICENSED",
+    "private": true,
+    "scripts": {
+        "dev-server": "encore dev-server",
+        "dev": "encore dev",
+        "watch": "encore dev --watch",
+        "build": "encore production --progress"
+    },
+    "dependencies": {
+        "i18n": "^0.15.0",
+        "vue-i18n": "^9.2.2"
+    }
+}
